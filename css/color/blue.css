@@ -1,0 +1,435 @@
+
+
+/* CORE CSS */
+
+
+body {
+	color:#777777;
+}
+
+h2 {
+	color:#ffffff;
+}
+
+h3 {
+	color:#000000;
+}
+
+
+/* NAVIGATION */
+
+.navbar-custom {
+	color:#ffffff;
+	background-image: linear-gradient(90deg,#834d9b,#9277b0);
+	box-shadow: 0px 4px 5px rgb(0 0 0 / 0.2);
+}
+
+.navbar-custom a {
+	color:white;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+	color:#6cc6e4;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+	background:white;
+}
+
+.banner--clone {
+	background:#6cc6e4
+ ;
+}
+
+.banner--clone .navbar-custom a {
+	color:#eeeeee;
+}
+
+.banner--clone .navbar-custom .navbar-nav > li > a:hover {
+	color:#6cc6e4;
+}
+
+
+/* TOP */
+
+#top {
+	color:#ffffff;
+	background:url(../../img/slider1.jpg) bottom center no-repeat;
+
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+}
+
+
+/* ABOUT */
+
+#about h2 {
+	color:#000000;
+}
+
+.service i {
+	color:#6cc6e4
+ ;
+}
+
+.service:hover {
+	background:#6cc6e4
+ ;
+}
+
+.service:hover i {
+	color:#000;
+}
+
+.service:hover h3 {
+	color:#ffffff;
+}
+
+.service:hover p {
+	color:#000;
+}
+
+
+
+/* PROGRAM */
+
+#program {
+	background: 
+    linear-gradient(
+		#6cc6e4, 
+		#6cc6e4
+    ),
+	
+    url(../../img/gallery-img1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+}
+
+.program {
+	background:#ffffff;
+}
+
+#program .lead {
+	color:#ffffff;
+}
+
+.program .icon {
+	color:#ffffff;
+	background:#6cc6e4
+ ;
+}
+
+
+/* POPUP PROGRAM DETAILS */
+
+#program-detail {
+	background:#ffffff;
+}
+
+#program-detail .icon {
+	color:#000000;
+	background:#6cc6e4
+ ;
+}
+
+
+/* MILESTONE */
+
+.fact .timer {
+	color:#000000;
+}
+
+.fact i {
+	color:#6cc6e4
+ ;
+}
+
+
+/* STORIES */
+
+#stories {
+	background:#6cc6e4;
+	background-image: url(../../img/map-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#stories .lead {
+	color:#000000;
+}
+
+.story {
+	background:#ffffff;
+}
+
+.story .icon {
+	color:#ffffff;
+	background:#6cc6e4;
+	padding: 10px;
+    display: table;
+    position: absolute;
+    top: -25px;
+    right: 15px;
+}
+
+#donate .lead {
+	color:#000000;
+}
+
+#donate .pledged {
+	color:#000000;
+}
+
+#donate .progress {
+	background:#dddddd;
+}
+
+#donate .progress-bar {
+	background:#000000;
+}
+
+
+/* POPUP DONATE FORM */
+
+#donate-form {
+	background:#ffffff;
+}
+
+#donate-form input,
+#donate-form select {
+	border:1px solid #777777;
+}
+
+
+/* POPUP STORY DETAILS */
+
+#story-detail {
+	background:#ffffff;
+}
+
+#story-detail .icon {
+	color:#000000;
+	background:#6cc6e4
+ ;
+}
+
+#story-detail footer {
+	background:none;
+}
+
+
+
+
+/* EVENTS */
+
+
+.event h3 {
+	color:#000000;
+}
+
+.event .icon {
+	color:#ffffff;
+	background:#6cc6e4
+ ;
+}
+
+.event .description {
+	background:#eeeeee;
+}
+
+#upcoming-events .owl-buttons .icon {
+	color:#ffffff;
+	background:#6cc6e4
+ ;
+}
+
+
+/* NEWS */
+
+#news h2 {
+	color:#000000;
+}
+
+.news .date i {
+	color:#6cc6e4
+ ;
+}
+
+/* Common style */
+
+.news figure {
+	background: #6cc6e4
+ ;
+}
+
+.news figure figcaption {
+	color:#ffffff;
+}
+
+.news figure h3 {
+	color:#ffffff;
+}
+
+/*---------------*/
+/***** news-effect *****/
+/*---------------*/
+
+figure.news-effect {
+	background: #000000;
+}
+
+figure.news-effect h3::after {
+	background: #6cc6e4
+ ;
+}
+
+
+/* POPUP NEWS DETAILS */
+
+#news-detail {
+	background:#ffffff;
+}
+
+#news-detail .date {
+	color:#000000;
+	background:#6cc6e4
+ ;
+}
+
+.column{
+	width: 90%;
+	 
+	
+}
+@media(max-width:768px){
+	.column{
+		width: 90%;
+	}
+}
+
+/* FOOTER */
+
+footer {
+	color:#000000;
+	/* background:#9277b0; */
+	padding:15px 0;
+	
+	background-image: url(../../img/map-white.png);
+	background-image: url(../../img/map-white.png), linear-gradient(90deg,#834d9b,#9277b0); /* W3C */
+    background-repeat: no-repeat;
+    background-position: right top; 
+}
+.footer-text{
+	color:white;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+.footer-text > h3 {
+
+	fontFamily : 'Montserrat';
+}
+
+/* social buttons */
+
+.social .fa-inverse {
+	color:#9277b0;
+ ;
+}
+
+.social .fa-inverse:hover {
+	color:#9277b0
+ ;
+}
+
+.social a {
+	color:#ffffff;
+}
+
+.social a:hover{
+	color:#000000;
+}
+
+
+/* SUBFOOTER */
+.subfooter {
+	color:#777777;
+	background:#000000;
+}
+
+.subfooter a {
+	color:#777777;
+}
+
+.subfooter a:hover {
+	color:#6cc6e4
+ ;
+}
+
+
+/* MISC */
+
+/* BUTTONS */
+
+
+
+.button-light {
+	color:#ffffff;
+	background:#6cc6e4
+ ;
+}
+
+.button-light:hover,
+.button-light:active {
+	color:#000000;
+}
+
+.button-dark {
+	color:#ffffff;
+	background:#000000;
+}
+
+.button-dark:hover,
+.button-dark:active {
+	color :#6cc6e4 ;
+}
+
+/* PRELOAD */
+
+#preload {
+	background:#ececee;
+}
+
+.loader:before {
+	background: #ececee;
+}
+
+.loader {
+	box-shadow: inset 0 0 0 1em #6cc6e4;
+}
+
+.loader:after {
+	background: #ececee;
+}
+
+
+
+/* OWL CAROUSEL */
+
+.owl-theme .owl-controls .owl-page span {
+	background:#6cc6e4 ;
+}
+
+.owl-theme .owl-controls .owl-buttons div{
+	color:#6cc6e4 ;
+}
+
+
+/* IMAGE HOVER EFFECTS */
+
+	
+.wrap .plus {
+	background: url(../../img/plus.png) no-repeat scroll center center / 60px 60px #222222;
+}

@@ -1,0 +1,74 @@
+
+#ibans{
+  margin-top: 5%;
+  margin-bottom: 5% ;
+  background-image:url(../img/map-black-trans.png) ;
+}
+
+.bank-info{
+  text-align: center;
+}
+
+.title{
+  color: #0e0e0e;
+}
+
+.info-text-style{
+  color: #0e0e0e;
+  font-family:'encode_sans_narrowbold';
+}
+
+.row-iban{
+  margin-bottom: 10px;
+}
+
+.flags{
+  width: 70px;
+}
+
+.subTitle{
+  background-color:  #f3f3f4;
+  padding: 10px; 
+  font-weight: bold;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/* 
+@media (maxwidth: 768px){
+  #ibans{
+    margin-top: 100px;
+    margin-bottom: 100px ;
+  }
+ .title{
+   text-align: center;
+   color: #0e0e0e;
+ }
+  
+   .subTitle{
+     background-color:  #f3f3f4;
+      list-style-type: none;
+         padding: 10px; 
+           font-weight: bold;
+   }
+   
+   .list1{
+     list-style-type: none;
+     margin-top:10px;
+   }
+
+   .href1{
+     text-decoration:none; 
+     color:black;
+   }
+
+  
+ul{
+  list-style-type: none;
+}
+ 
+} */
+
+ 
